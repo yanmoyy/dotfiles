@@ -1,0 +1,11 @@
+[user]
+	name = yanmo
+	email = 67538999+yanmoyy@users.noreply.github.com 
+[init]
+	defaultbranch = main
+[pager]
+	log = false
+[pull]
+	rebase = true
+[push]
+	autoSetupRemote = true
