@@ -143,3 +143,4 @@ alias pip="pip3"
 export PATH=$PATH:$HOME/go/bin
 
 source <(fzf --zsh)
+bindkey -v
