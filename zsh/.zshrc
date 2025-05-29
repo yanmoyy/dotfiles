@@ -142,5 +142,12 @@ alias pip="pip3"
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 export PATH=$PATH:$HOME/go/bin
 
+# PostgreSQL
+export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
+
+set -o vi
+# set up key binding with fzf (should go below)
 source <(fzf --zsh)
-bindkey -v
+
+export LC_ALL=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
