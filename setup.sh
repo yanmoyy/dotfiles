@@ -1,17 +1,17 @@
 # git
-stow git -t $HOME
+stow git -target $HOME
 
 # zsh
-stow zsh -t $HOME
+stow zsh -target $HOME
 
 # tmux
-stow tmux -t $HOME
+stow tmux -target $HOME
 
 # nvim
-stow nvim -t $HOME
+stow nvim -target $HOME
 
 # MAC OS
 
-stow karabiner -t $HOME
+stow karabiner -target $HOME
 
-stow aerospace -t $HOME
+stow aerospace -target $HOME
