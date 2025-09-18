@@ -1,17 +1,20 @@
 # git
-stow git -target $HOME
+stow git --target=$HOME
 
 # zsh
-stow zsh -target $HOME
+stow zsh --target=$HOME
 
 # tmux
-stow tmux -target $HOME
+stow tmux --target=$HOME
 
 # nvim
-stow nvim -target $HOME
+stow nvim --target=$HOME
+
+# nix
+stow nix --target=$HOME
 
 # MAC OS
 
-stow karabiner -target $HOME
+stow karabiner --target=$HOME
 
-stow aerospace -target $HOME
+stow aerospace --target=$HOME
